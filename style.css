@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    border: none;
+}
+#search-container{
+    background-color: rgba(255, 255, 255, 0.38);
+    padding: 0.5rem 0.5rem;
+    width: 95%;
+    margin: .5rem auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#bar{
+    padding: 10px;
+}
+#search{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    border: none;
+    padding: 5px 10px ;
+    font-size: 1.3rem;
+    color: white;
+}
+#profile{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.407);
+    border-radius: 50%;
+    width: 1.3rem;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* section  */
+section{
+    padding: 5rem 10px 0;
+    height: 100vh;
+    display: flex;   
+}
+.row{
+    border: 1px solid black;
+    width: 50%;
+}
+.notes{
+    background-color: rgba(255, 255, 255, 0.194);
+    width: 97%;
+    border: white;
+    margin: .4rem auto;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+}
+.notes-title{
+    font-size: 1.3rem;
+    padding: .2rem 0;
+}
+.notes-content{
+    color: rgba(255, 255, 255, 0.725);
+}
